@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ShiftSearchPage</title>
+		<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+		</head>
+		<body>
+			<div id="header">
+				<h1 id="headertext">Restoration Roofing Co., Inc.</h1>
+			</div>
+			<h3 id="title">Shift Search Page</h3>
+			<form method="post" action="ShiftSearchForm.php">
+				<p>Group records by:
+					<select name="column">
+						<option value="eID">Employee</option>
+						<option value="jobID">Job</option>
+						<option value="workDate">Date</option>
+						<option value="workTime">Time</option>
+					</select>
+				</p>
+				<input type="submit" name="Submit" value="Submit">
+			 </form>
+	</body>
+</html>

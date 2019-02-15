@@ -1,0 +1,83 @@
+body {
+    background-color: #aaaaaa;
+}
+
+#header{
+    background-color: #000;
+    width: 100%;
+    margin-top: -20px;
+}
+
+#headertext{
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+#contact{
+    float: left;
+    margin-right: auto;
+}
+
+#picture{
+    float: left;
+}
+
+#background{
+    float: left;
+    background-color: #000;
+    color: white;
+
+}
+
+#options{
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+table {
+    color: #333; 
+    font-family: Helvetica, Arial, sans-serif; 
+    width: 400px;
+    border-collapse:
+    collapse; border-spacing: 0;
+    }
+
+td, th { 
+    border: 1px solid #CCC; 
+    height: 40px; 
+    }
+
+th {
+    background: #F3F3F3;
+    font-weight: bold; 
+    }
+
+td {
+    background: #FAFAFA;
+    text-align: center; 
+    }
+
+#optionButton:hover{
+    font-size: 150%;
+    text-decoration-color: yellow;
+}
+
+#SearchBox{
+    border: 2px solid black;
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#SearchBox:hover{
+    font-size: 150%;
+    text-decoration-color: yellow;
+}
+
+#title{
+    text-decoration: bold;
+}

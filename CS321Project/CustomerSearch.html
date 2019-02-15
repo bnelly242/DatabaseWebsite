@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CustomerSearchPage</title>
+		<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+		</head>
+		<body>
+			<div id="header">
+				<h1 id="headertext">Restoration Roofing Co., Inc.</h1>
+			</div>
+			<h3 id="title">Customer Search Page</h3>
+			<form method="post" action="CustomerSearchForm.php">
+				<p>Search by:
+					<select name="column">
+						<option value="cID">ID</option>
+						<option value="cStreet">Street</option>
+						<option value="cTown">Town</option>
+						<option value="cState">State</option>
+						<option value="cZip">Zip</option>
+						<option value="cFirstName">First Name</option>
+						<option value="cLastName">Last Name</option>
+						<option value="cMobile">Phone Number</option>
+					</select>
+				</p>
+					
+				<p>Information:
+					<input type="text" name="infoField" value="Enter info here">
+				 </p>	
+				<input type="submit" name="Submit" value="Submit">
+			 </form>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>EmployeeSearchPage</title>
+		<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+		</head>
+		<body>
+			<div id="header">
+				<h1 id="headertext">Restoration Roofing Co., Inc.</h1>
+			</div>
+			<h3 id="title">Employee Search Page</h3>
+			<form method="post" action="EmployeeSearchForm.php">
+				<p>Search by:
+					<select name="column">
+						<option value="eID">ID</option>
+						<option value="eStreet">Street</option>
+						<option value="eTown">Town</option>
+						<option value="eState">State</option>
+						<option value="eZip">Zip</option>
+						<option value="Hourly Rate">Rate</option>
+						<option value="eFirstName">First Name</option>
+						<option value="eLastName">Last Name</option>
+						<option value="ePhone">Phone Number</option>
+					</select>
+				</p>
+					
+				<p>Information:
+					<input type="text" name="infoField" value="Enter info here">
+				</p>	
+				<input type="submit" name="Submit" value="Submit">
+			 </form>
+	</body>
+</html>
